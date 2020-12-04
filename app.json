@@ -1,0 +1,36 @@
+{
+    "name": "Telegram Mirror",
+    "description": "A Telegram Mirroring Bot",
+    "keywords": [
+      "telegram"
+    ],
+    "website": "https://github.com/azamaulanaaa/botkaca",
+    "repository": "https://github.com/azamaulanaaa/botkaca",
+    "env": {
+      "API_ID": {
+        "description": "Get This Value From my.telegram.org",
+        "value": ""
+      },
+      "API_HASH": {
+        "description": "Get This Value From my.telegram.org",
+        "value": ""
+      },
+      "BOT_TOKEN": {
+        "description": "Get This Value From @BotFather",
+        "value": ""
+      },
+      "BOT_PASSWORD": {
+        "description": "Enter Pasword to Make it Private or Leave Blank to Make it Public",
+        "value": "",
+        "required" : false
+      }
+    },
+    "stack": "container",
+    "formation": {
+      "worker": {
+        "quantity": 1,
+        "size": "free"
+      }
+    }
+  }
+  
