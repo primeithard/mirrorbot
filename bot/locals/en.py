@@ -42,6 +42,6 @@ LOCAL = Local({
     'COMMAND_UPLOAD_AS_DOC' : 'Toggle Uploading Streaming / Document FileType',
     'COMMAND_UPLOAD_AS_ZIP' : 'Toggle Uploading Bundled Zipfile / Separated Single File',
     'COMMAND_SET_TRACKER' : 'To Set Default Tracker For Magnet Links. If You Want Set Multiple Tracker Then Send Each Tracker Per Line in a Single Message.',
-    'BLOCK_EMPTY' : "□",
-    "BLOCK_FILLED" : "■"
+    'BLOCK_EMPTY' : "░",
+    "BLOCK_FILLED" : "█"
 })
