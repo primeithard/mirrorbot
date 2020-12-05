@@ -4,8 +4,8 @@
     "keywords": [
       "telegram"
     ],
-    "website": "https://github.com/azamaulanaaa/botkaca",
-    "repository": "https://github.com/azamaulanaaa/botkaca",
+    "website": "https://github.com/add830830",
+    "repository": "https://github.com/add830830",
     "env": {
       "API_ID": {
         "description": "Get This Value From my.telegram.org",
@@ -20,8 +20,13 @@
         "value": ""
       },
       "BOT_PASSWORD": {
-        "description": "Enter Pasword to Make it Private or Leave Blank to Make it Public",
+        "description": "Enter Pasword to Make it Private or Leave Blank to Make it Public. Default is Public.",
         "value": "",
+        "required" : false
+      },
+      "BAR_SIZE": {
+        "description": "Numbers of icon to be display in Download or Upload Progress",
+        "value": "10",
         "required" : false
       }
     },
@@ -33,4 +38,4 @@
       }
     }
   }
-  
+
