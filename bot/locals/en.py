@@ -30,7 +30,7 @@ LOCAL = Local({
     'TRACKER_RESET' : 'Default Torrent Tracker Reset.',
     'TRACKER_APPLIED' : 'Default Torrent Tracker Applied.',
     'HELP_MESSAGE_HEADER' : '<b>Bot Commands</b>',
-    'NO_HELP_INFO' : 'no information',
+    'NO_HELP_INFO' : '\n',
     'COMMAND_START' : 'To Check Bot Alive / Dead',
     'COMMAND_PASSWORD' : 'Enter Password To Verify You',
     'COMMAND_HELP' : 'For Detail Information',
@@ -39,9 +39,9 @@ LOCAL = Local({
     'COMMAND_LEECH_LIST' : 'List of Mirroring Processes',
     'COMMAND_SET_THUMBNAIL' : 'To Set Custom Thumbnail',
     'COMMAND_RESET_THUMBNAIL' : 'To Reset Custom Thumbnail',
-    'COMMAND_UPLOAD_AS_DOC' : 'Toggle Uploading Streaming / Document Type',
+    'COMMAND_UPLOAD_AS_DOC' : 'Toggle Uploading Streaming / Document FileType',
     'COMMAND_UPLOAD_AS_ZIP' : 'Toggle Uploading Bundled Zipfile / Separated Single File',
     'COMMAND_SET_TRACKER' : 'To Set Default Tracker For Magnet Links. If You Want Set Multiple Tracker Then Send Each Tracker Per Line in a Single Message.',
-    'BLOCK_EMPTY' : "▱",
-    "BLOCK_FILLED" : "▰"
+    'BLOCK_EMPTY' : "□",
+    "BLOCK_FILLED" : "■"
 })
